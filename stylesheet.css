@@ -1,7 +1,7 @@
 body {
     margin: 0px 0px 0px 0px;
     font-family: 'Bebas Neue', cursive;
-    /*background-color: black;*/
+    background-color: black;
 }
 header {
     margin: 0px 0px 0px 0px;
@@ -24,4 +24,33 @@ header {
     
 }
 
+.content {
 
+    color: white;
+
+}
+
+.row {
+
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    padding-top: 5%;
+
+}
+
+.card {
+
+    border: 2px solid white;
+    max-width: 20%;
+    height: auto;
+    text-align: center;
+
+}
+
+.cardImage {
+
+    max-width: 100%;
+    height: auto;
+
+}
