@@ -1,24 +1,43 @@
+.preload {
+    
+    -webkit-transition: none !important;
+  -moz-transition: none !important;
+  -ms-transition: none !important;
+  -o-transition: none !important;
+
+}
+
 body {
+
     margin: 0px 0px 0px 0px;
     font-family: 'Bebas Neue', cursive;
     background-color: black;
+
 }
+
 header {
+
     margin: 0px 0px 0px 0px;
     border: 0px 0px 0px 0px;
     padding: 0px 0px 0px 0px;
     background-color: black;
     display: flex;
     justify-content: space-around;
+
 }
+
 #logoImage {
+
     width: 100%;
     height: auto;
     margin: 0px 0px 0px 0px;
     border: 0px 0px 0px 0px;
     padding: 0px 0px 0px 0px;
+
 }
+
 .navButton{
+
     color:white;
     font-size: xx-large;
     
@@ -48,17 +67,64 @@ button{
 .card {
 
     border: 2px solid white;
-    max-width: 20%;
+    width: 20%;
     height: auto;
     text-align: center;
     border-radius: 4px;
+    animation-name: shrink;
+    animation-duration: 0.5s;
 
 }
 
 .cardImage {
 
-    max-width: 100%;
+    width: 100%;
     height: auto;
+
+}
+
+.card:hover {
+
+    animation-name: expand;
+    animation-duration: 0.5s;
+    width: 25%;
+    height: auto;
+
+}
+
+@keyframes expand {
+
+    from {
+
+        width: 20%;
+        height: auto;
+
+    }
+
+    to {
+
+        width: 25%;
+        height: auto;
+
+    }
+
+}
+
+@keyframes shrink {
+
+    from {
+
+        width: 25%;
+        height: auto;
+
+    }
+
+    to {
+
+        width: 20%;
+        height: auto;
+
+    }
 
 }
 
