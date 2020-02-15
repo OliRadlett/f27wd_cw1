@@ -150,12 +150,12 @@ button{
 
     from {
 
-      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #ff0000, 0 0 40px #ff0000, 0 0 50px #ff0000, 0 0 60px #ff0000, 0 0 70px #ff0000;
+      text-shadow: 0 0 10px #ff0000, 0 0 20px #ff0000, 0 0 30px #ff0000, 0 0 40px #ff0000, 0 0 50px #ff0000;
     }
 
     to {
 
-      text-shadow: 0 0 20px #fff, 0 0 30px #6b0000, 0 0 40px #6b0000, 0 0 50px #6b0000, 0 0 60px #6b0000, 0 0 70px #6b0000, 0 0 80px #6b0000;
+      text-shadow: 0 0 20px #6b0000, 0 0 30px #6b0000, 0 0 40px #6b0000, 0 0 50px #6b0000, 0 0 60px #6b0000;
   
     }
   
