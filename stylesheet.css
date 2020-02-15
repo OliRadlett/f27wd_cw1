@@ -1,11 +1,7 @@
-.preload {
-    
-    -webkit-transition: none !important;
-  -moz-transition: none !important;
-  -ms-transition: none !important;
-  -o-transition: none !important;
-
-}
+.preload *{
+    animation-duration: 0s !important;
+    -webkit-animation-duration: 0s !important;
+    transition:background-color 0s, opacity 0s, color 0s, width 0s, height 0s, padding 0s, margin 0s !important;}
 
 body {
 
@@ -49,6 +45,22 @@ header {
     -moz-animation: glow 1s ease-in-out infinite alternate;
     animation: glow 1s ease-in-out infinite alternate;
 
+}
+
+/* Glow effect modified from https://www.w3schools.com/howto/howto_css_glowing_text.asp*/
+@keyframes glow {
+
+    from {
+
+      text-shadow: 0 0 10px #ff0000, 0 0 20px #ff0000, 0 0 30px #ff0000, 0 0 40px #ff0000, 0 0 50px #ff0000;
+    }
+
+    to {
+
+      text-shadow: 0 0 20px #6b0000, 0 0 30px #6b0000, 0 0 40px #6b0000, 0 0 50px #6b0000, 0 0 60px #6b0000;
+  
+    }
+  
 }
 
 .content {
@@ -102,6 +114,14 @@ button{
 
 }
 
+
+.description {
+
+    font-size: large;
+    justify-content: space-around;
+
+}
+
 @keyframes expand {
 
     from {
@@ -140,23 +160,7 @@ button{
 
 #footer {
 
+    padding-top: 10%;
     color: red;
 
-}
-
-
-/* Glow effect modified from https://www.w3schools.com/howto/howto_css_glowing_text.asp*/
-@keyframes glow {
-
-    from {
-
-      text-shadow: 0 0 10px #ff0000, 0 0 20px #ff0000, 0 0 30px #ff0000, 0 0 40px #ff0000, 0 0 50px #ff0000;
-    }
-
-    to {
-
-      text-shadow: 0 0 20px #6b0000, 0 0 30px #6b0000, 0 0 40px #6b0000, 0 0 50px #6b0000, 0 0 60px #6b0000;
-  
-    }
-  
 }
