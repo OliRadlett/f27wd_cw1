@@ -164,3 +164,19 @@ button{
     color: red;
 
 }
+
+.news {
+
+    width: 50%;
+    text-align: center;
+    border: 2px solid white;
+    border-radius: 4px;
+    font-size: larger;
+    min-height: 70%;
+    padding-bottom: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
+    text-decoration: none;
+    color: white;
+
+}
