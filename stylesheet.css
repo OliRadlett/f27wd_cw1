@@ -87,16 +87,18 @@ button{
 
 }
 
+
+/* Glow effect modified from https://www.w3schools.com/howto/howto_css_glowing_text.asp*/
 @keyframes glow {
 
     from {
 
-      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #ff0000, 0 0 40px #ff0000, 0 0 50px #ff0000, 0 0 60px #ff0000, 0 0 70px #ff0000;
     }
 
     to {
 
-      text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+      text-shadow: 0 0 20px #fff, 0 0 30px #6b0000, 0 0 40px #6b0000, 0 0 50px #6b0000, 0 0 60px #6b0000, 0 0 70px #6b0000, 0 0 80px #6b0000;
   
     }
   
